@@ -1,0 +1,85 @@
+#contact{
+  background-color:#DEB887;
+}
+#products{
+  background-color:#FF7F50;
+}
+#aboutUs{
+  background-color:#008B8B;
+}
+h1{
+  color:brown;
+  font-style:italic;
+}
+h2{
+  color:rgb(255,0,0);
+  font-weight:800;
+}
+h3{
+  font-family:'Lucida sans';
+  font-size:30px;
+  color:white;
+}
+ 
+p{
+  font-family:time new roman;
+  font-size:20px;
+  
+}
+.container{
+  border:1px solid yellow;
+  text-align:center;
+  background-color:#FFE4C4;
+}
+nav {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 8px 0;
+   margin-right: 0%;
+   font-size: 20px;
+}
+nav>ul {
+  text-align: right;
+}
+ul>li {
+ display: inline-block; 
+}
+
+nav>ul>li>a {
+padding: 10px;
+margin-right: 0;
+text-transform: uppercase;
+text-decoration: none;
+display: block;
+color: blue;
+}
+nav>ul>li>a:hover {
+box-shadow: 0 0 1px rgba(255, 255, 255, 0.6);
+background: lightblue;
+color: rgba(0, 35, 122, 0.7);
+}
+footer{
+  font-family:time new roman;
+  font-size:20px;
+  font-style:italic;
+  color:#D2691E;
+}
+
+@media only screen and (min-width:400px)
+{
+  body{background-size:contain;background-repeat:no-repeat;}
+}
+
+table,td,th{
+  padding: 5px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table{
+  width: 400px;
+}
+th{
+  background-color: green;
+  color: white;
+}
+/*You can see my website*/
